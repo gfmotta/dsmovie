@@ -59,7 +59,7 @@
 }
 
 .dsmovie-btn:hover {
-    transition: 0.6s;
+    transition: 0.5s;
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: #fff;
