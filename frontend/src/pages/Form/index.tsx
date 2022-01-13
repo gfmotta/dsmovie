@@ -22,11 +22,11 @@ function Form() {
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
                         <select className="form-control" id="score">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>1 estrela(s)</option>
+                            <option>2 estrela(s)</option>
+                            <option>3 estrela(s)</option>
+                            <option>4 estrela(s)</option>
+                            <option>5 estrela(s)</option>
                         </select>
                     </div>
                     <div className="dsmovie-form-btn-container">

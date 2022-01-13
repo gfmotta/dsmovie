@@ -1,8 +1,47 @@
+import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 
 function Listing() {
     return (
-        <Pagination/>
+        <>
+            <Pagination />
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+
+                    <div className="col-6 col-md-4 col-xl-3 mb-4">
+                        <MovieCard />
+                    </div>
+                </div>
+            </div>
+        </>
     );
 }
 
